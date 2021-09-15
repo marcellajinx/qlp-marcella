@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/styles/scss/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/536cd29045.js" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <title>Volunteer - Quarter Life Projects</title>
+</head>
+<body>
+    <div class="body-container-wrapper">
+        <div class="body-container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="navbar-brand-logo">
+                        <a class="navbar-brand" href="#">
+                            <img src="https://dev-quarterians.pantheonsite.io/wp-content/uploads/elementor/thumbs/Logo-QLP-pae6lsqzvrl8u6udm5yr3fkfswq02k7tqcxmbjsh60.png" alt="qlp-logo">
+                        </a>
+                    </div>
+        
+                    <div class="navbar-menu">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" data-hover="dropdown">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Functionary
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Human Resources</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">R&D</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Program</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Comms & Information</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">IT</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Project Dev</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">GD</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Counseling</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">PR</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Advisors</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Open Recruitment
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Intership</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Volunteer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Webinar
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Career Literacy</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Personal Development</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Social Relation</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Financial Literacy</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Others</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Survey</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="headline-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="headline-text">
+                                <h1>Quarter Life Projects Volunteer Recruitment</h1>
+                                <h4>Batch 5 | Periode 18 Agustus - 18 Oktober 2021</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa erat, lobortis ut tempor at, venenatis a libero. Maecenas id nibh sit amet ante dapibus consequat in nec enim.</p>
+                                <div class="btn">
+                                    <button type="button" class="btn btn-form-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        APPLY NOW
+                                    </button>
+                                </div>
+                                
+                            </div>                            
+                        </div>
+                        <div class="col-lg-6 headline-img">
+                            <img class="w-100 shadow" src="https://via.placeholder.com/824x552" />
+                        </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="content benefits-wrapper">
+                <h3>Benefits</h3>
+                <div class="content-benefits">
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-lg-6 benefits-img">
+                                <img class="w-100 shadow" src="https://via.placeholder.com/824x552" />
+                            </div>
+                            <div class="col-lg-6 benefits">
+                                <div class="benefit">
+                                    <div class="icon">
+                                        <i class="fas fa-file-invoice"></i>
+                                    </div>
+                                    <p>Sertifikat</p>
+                                </div>
+                                <div class="benefit">
+                                    <div class="icon">
+                                        <i class="fas fa-file-invoice"></i>
+                                    </div>
+                                    <p>Skill Endorsements</p>
+                                </div>
+                                <div class="benefit">
+                                    <div class="icon">
+                                        <i class="fas fa-file-invoice"></i>
+                                    </div>
+                                    <p>Relasi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="content timelines-wrapper">
+                <h3>Recruitment Timeline</h3>
+                <div class="content-timelines">
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body h-100 d-inline-block">
+                                    <i class="fas fa-file-invoice"></i>
+                                    <h5 class="card-title">CV Application<br>1-9 Agustus 2021</h5>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body h-100 d-inline-block">
+                                    <i class="fas fa-file-invoice"></i>
+                                    <h5 class="card-title">Interview Annoucement<br>10 Agustus 2021</h5>
+                                </div>
+                              </div>
+                            </div>
+                         
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <div class="card-body h-100 d-inline-block">
+                                        <i class="fas fa-file-invoice"></i>
+                                        <h5 class="card-title">Interview Week<br>11-15 Agustus 2021</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <div class="card-body h-100 d-inline-block">
+                                        <i class="fas fa-file-invoice"></i>
+                                        <h5 class="card-title">Final Announcement<br>18 Agustus 2021</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          
+                    </div>
+                </div> 
+            </div>
+
+            <div class="content requirements-wrapper">
+                <h3>General Requirements</h3>
+                <div class="content-requirements">
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-lg-6 requirements">
+                                <div class="requirement">
+                                    <div class="icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <p>Berusia 18-25 tahun</p>
+                                </div>
+                                <div class="requirement">
+                                    <div class="icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <p>Tertarik dengan isu quarter life crisis</p>
+                                </div>
+                                <div class="requirement">
+                                    <div class="icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <p>Bersedia mengikuti kegiatan dengan status unpaid volunteers periode 18 Agustus - 18 Oktober 2021</p>
+                                </div>
+                                <div class="requirement">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa erat, lobortis ut tempor at, venenatis a libero. Maecenas id nibh sit amet ante dapibus consequat in nec enim.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 requirements-img">
+                                <img class="w-100 shadow" src="https://via.placeholder.com/824x552" />
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+
+            <div class="content ou-wrapper">
+                <h3>Available Functions</h3>
+                <div class="content-ou">
+                    <div class="row">
+                        <div class="ou-heading col-lg-6">
+                            
+                            <img src="https://dev-quarterians.pantheonsite.io/wp-content/uploads/2021/07/about-us_img-1.png" alt="#">
+                            <div class="btn btn-tor">
+                                <button>TOR Open Recruitment Batch 5</button>
+                            </div>
+                        </div>
+                        <div class="ou-acordion col-lg-6">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Advisor
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Legal Advisor</li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+    
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        HR
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>HRD Officer</li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+    
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Program
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Program Supervisor</li>
+                                                <li>Program Officer</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+    
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                            Content Writing
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Content Supervisor</li>
+                                                <li>Content Officer</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFive">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                            Graphic Design
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">
+                                          <ul>
+                                              <li>Graphic Design Manager</li>
+                                              <li>Graphic Designer</li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                </div>
+    
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingSix">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                          Project
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">
+                                          <ul>
+                                              <li>Project Manager</li>
+                                              <li>Project Officer</li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="embed-responsive">
+                    <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1HONrL8dmhp0PjVTz0NihtOEXcE2j98i0/preview" allowfullscreen></iframe>
+                  </div>                
+            </div>
+
+            <div class="content faqs-wrapper">
+                <h3>Frequently Asked Questions</h3>
+                <!-- <div class="content-faqs">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="content-faqs">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="content form-wrapper">
+                <div class="content-form">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <h3>Daftarkan Dirimu Segera</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa erat, lobortis ut tempor at, venenatis a libero. Maecenas id nibh sit amet ante dapibus consequat in nec enim.</p>
+                        </div>
+                        
+                        <div class="col-lg-2">
+                            <div class="btn">
+                                <button type="button" class="btn btn-form-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    APPLY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                HEADER
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <form id="msform">
+                                    <!-- progressbar -->
+                                    <ul id="progressbar">
+                                        <li class="active">Account Setup</li>
+                                        <li>Social Profiles</li>
+                                        <li>Personal Details</li>
+                                    </ul>
+                                    <!-- fieldsets -->
+                                    <fieldset>
+                                        <h2 class="fs-title">Registration Form</h2>
+                                        <h3 class="fs-subtitle">Page 1</h3>
+                                        <div class="one-line">
+                                            <div class="group-form">
+                                                <label>First Name</label>
+                                                <input type="text" name="text"/>
+                                            </div>
+                                            <div class="group-form">
+                                                <label>Last Name</label>
+                                                <input type="text" name="text"/>
+                                            </div>
+                                        </div>
+                                        <div class="group-form">
+                                            <label>Mail Address</label>
+                                            <input type="text" name="email"/>
+                                        </div>
+                                        <div class="group-form">
+                                            <label>Text1</label>
+                                            <input type="text" name="anothertext"/>
+                                        </div>
+                                        <div class="group-form">
+                                            <label>SelectOption</label>
+                                            <select class="form-select" id="specificSizeSelect">
+                                                <option selected>Choose...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    
+                                        <input type="button" name="next" class="next action-button" value="Next" />
+                                    </fieldset>
+                                    <fieldset>
+                                        <h2 class="fs-title">Page 2</h2>
+                                        <div class="group-form">
+                                            <label>TextArea1</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                        <div class="group-form">
+                                            <label>TextArea2</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                        
+
+                                        <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                        <input type="button" name="next" class="next action-button" value="Next" />
+                                    </fieldset>
+                                    <fieldset>
+                                        <h2 class="fs-title">Page 3</h2>
+                                        
+                                        <div class="group-form">
+                                            <label>FileInput1</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+                                        <div class="group-form">
+                                            <label>FileInput2</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+
+                                        <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                        <input type="submit" name="submit" class="submit action-button" value="Submit" />
+                                    </fieldset>
+                                </form>
+                                        
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-wrap">
+                    QUARTER LIFE PROJECTS TEAM<br>Copyright © Quarterians 2021 Quarter Life Projects
+                </div>
+                
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+        $('.dropdown').hover(function(){ 
+             $('.dropdown-toggle', this).trigger('click'); 
+        });
+
+
+        var current_fs, next_fs, previous_fs; 
+        var left, opacity, scale; 
+        var animating; 
+
+        $(".next").click(function(){
+    if(animating) return false;
+    animating = true;
+    
+    current_fs = $(this).parent();
+    next_fs = $(this).parent().next();
+    
+    //activate next step on progressbar using the index of next_fs
+    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+    
+    //show the next fieldset
+    next_fs.show(); 
+    //hide the current fieldset with style
+    current_fs.animate({opacity: 0}, {
+        step: function(now, mx) {
+            //as the opacity of current_fs reduces to 0 - stored in "now"
+            //1. scale current_fs down to 80%
+            scale = 1 - (1 - now) * 0.2;
+            //2. bring next_fs from the right(50%)
+            left = (now * 50)+"%";
+            //3. increase opacity of next_fs to 1 as it moves in
+            opacity = 1 - now;
+            current_fs.css({
+                'transform': 'scale('+scale+')',
+                'position': 'absolute'
+            });
+            next_fs.css({'left': left, 'opacity': opacity});
+        }, 
+        duration: 800, 
+        complete: function(){
+            current_fs.hide();
+            animating = false;
+        }, 
+        //this comes from the custom easing plugin
+        easing: 'easeInOutBack'
+    });
+});
+
+        $(".previous").click(function(){
+    if(animating) return false;
+    animating = true;
+    
+    current_fs = $(this).parent();
+    previous_fs = $(this).parent().prev();
+    
+    //de-activate current step on progressbar
+    $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+    
+    //show the previous fieldset
+    previous_fs.show(); 
+    //hide the current fieldset with style
+    current_fs.animate({opacity: 0}, {
+        step: function(now, mx) {
+            //as the opacity of current_fs reduces to 0 - stored in "now"
+            //1. scale previous_fs from 80% to 100%
+            scale = 0.8 + (1 - now) * 0.2;
+            //2. take current_fs to the right(50%) - from 0%
+            left = ((1-now) * 50)+"%";
+            //3. increase opacity of previous_fs to 1 as it moves in
+            opacity = 1 - now;
+            current_fs.css({'left': left});
+            previous_fs.css({'transform': 'scale('+scale+')', 'opacity': opacity});
+        }, 
+        duration: 800, 
+        complete: function(){
+            current_fs.hide();
+            animating = false;
+        }, 
+        //this comes from the custom easing plugin
+        easing: 'easeInOutBack'
+            });
+        });
+
+        $(".submit").click(function(){
+            return false;
+        })
+    </script>
+</body>
+</html>
